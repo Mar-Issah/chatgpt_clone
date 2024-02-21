@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+langchain = "*"
+streamlit = "*"
+langchain-openai = "*"
+streamlit-chat = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
