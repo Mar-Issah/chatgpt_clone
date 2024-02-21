@@ -8,7 +8,7 @@ A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit
 
 ![App](app.png)
 
-## To run this app locally, follow these steps:
+## To run this app locally, follow the steps below:
 
 - Clone the repository
 - run `pipenv shell`
