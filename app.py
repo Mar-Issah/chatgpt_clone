@@ -21,7 +21,7 @@ def main():
      # sidebarbar UI below
      # disable the btn when there are no messages
      with st.sidebar:
-          st.title("😎")
+          st.title("📄💬➡️🔍")
           st.write("Click the button below to obtain a summary of your chat.")
           summarise_btn = st.button("Summarise the conversation", key="summarise", type="secondary")
 
