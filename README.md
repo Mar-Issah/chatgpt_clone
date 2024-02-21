@@ -11,6 +11,6 @@ A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit
 ## To run this app locally, follow these steps:
 
 - Clone the repository
-- `pipenv shell`
-- `pipenv install -r requirement.txt`
-- `streamlit run streamlit.py`
+- run `pipenv shell`
+- run `pipenv install -r requirement.txt`
+- run `streamlit run app.py`
