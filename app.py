@@ -11,7 +11,6 @@ def main():
 
      st.markdown("<h3 style='text-align: center;'>How can I assist you? </h3>", unsafe_allow_html=True)
 
-
      # Initialize the Application state. A state to hold the conversation summary and messages b/n AI and Human
      if 'conversation' not in st.session_state:
           st.session_state['conversation'] = None
