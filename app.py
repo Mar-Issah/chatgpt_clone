@@ -41,6 +41,12 @@ def main():
 
 		# Finally display the user message and AI message
           with response_container:
+               st.download_button(
+				label="Download data as CSV",
+				data=st.session_state['messages'],
+				file_name='large_df.csv',
+				mime='text',
+			)
                for i in range(len(st.session_state['messages'])):
                     if (i % 2) == 0:
                          message(st.session_state['messages'][i], is_user=True, key=str(i) + '_user')
