@@ -1,4 +1,5 @@
-from langchain.llms import OpenAI
+# from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 from langchain.chains import ConversationChain
 from langchain.chains.conversation.memory import ConversationSummaryMemory
 import streamlit as st
@@ -15,7 +16,7 @@ def get_response(userInput):
         # same as creating the conversation var. but in the state
         st.session_state['conversation'] = ConversationChain(
             llm=llm,
-            verbose=True,
+            # verbose=True,
             memory=ConversationSummaryMemory(llm=llm)
         )
 

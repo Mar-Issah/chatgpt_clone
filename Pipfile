@@ -9,6 +9,7 @@ langchain = "*"
 streamlit = "*"
 langchain-openai = "*"
 streamlit-chat = "*"
+langchain-community = "*"
 
 [dev-packages]
 

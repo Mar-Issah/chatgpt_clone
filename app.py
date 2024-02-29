@@ -25,12 +25,11 @@ def main():
           summarise_btn = st.button("Summarise the conversation", key="summarise", type="secondary")
 
           if summarise_btn:
-               summarise_placeholder = st.write("Below is the summary of our conversation ❤️:\n\n"+st.session_state['conversation'].memory.buffer)
+               st.write("Below is the summary of our conversation ❤️:\n\n"+st.session_state['conversation'].memory.buffer)
 
 
      response_container = st.container()
      # Here we will have a container for user input text box
-     container = st.container()
 
      prompt = st.chat_input("Enter a prompt here")
      if prompt:
@@ -41,12 +40,12 @@ def main():
 
 		# Finally display the user message and AI message
           with response_container:
-               st.download_button(
-				label="Download data as CSV",
-				data=st.session_state['messages'],
-				file_name='large_df.csv',
-				mime='text',
-			)
+               # st.download_button(
+			# 	label="Download data as txt",
+			# 	data=st.session_state['messages'],
+			# 	file_name='large_df.txt',
+			# 	mime='text',
+			# )
                for i in range(len(st.session_state['messages'])):
                     if (i % 2) == 0:
                          message(st.session_state['messages'][i], is_user=True, key=str(i) + '_user')
