@@ -1,5 +1,5 @@
 import streamlit as st
-# from utils import get_response
+from utils import get_response
 from streamlit_chat import message
 
 def main():
@@ -36,8 +36,8 @@ def main():
      if prompt:
           # Append the user's prompt and by the AI's repsonse
           st.session_state['messages'].append(prompt)
-        #   model_response=get_response(prompt)
-        #   st.session_state['messages'].append(model_response)
+          model_response=get_response(prompt)
+          st.session_state['messages'].append(model_response)
 
 		# Finally display the user message and AI message
           with response_container:
