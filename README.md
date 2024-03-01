@@ -1,6 +1,6 @@
 # chatgpt_clone
 
-A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit , Streamlit-chat, ConversationChain | ConversationSummaryMemory
+A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit , Streamlit-chat, ConversationChain, ConversationSummaryMemory
 
 ![Repo size](https://img.shields.io/github/repo-size/Mar-Issah/chatgpt_clone)
 ![Repo License](https://img.shields.io/github/license/Mar-Issah/chatgpt_clone.svg)
