@@ -14,3 +14,5 @@ A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit
 - run `pipenv shell`
 - run `pipenv install -r requirement.txt`
 - run `streamlit run app.py`
+
+## Summarize Conversation
