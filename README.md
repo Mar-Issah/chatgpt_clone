@@ -1,4 +1,4 @@
-# ChatGPT clone
+# ChatGPT Clone
 
 A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit , Streamlit-Chat, ConversationChain, ConversationSummaryMemory.
 
