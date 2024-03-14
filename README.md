@@ -2,6 +2,9 @@
 
 A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit , Streamlit-Chat, ConversationChain, ConversationSummaryMemory.
 
+## Summarize Conversation
+
+
 ![Repo size](https://img.shields.io/github/repo-size/Mar-Issah/chatgpt_clone)
 ![Repo License](https://img.shields.io/github/license/Mar-Issah/chatgpt_clone.svg)
 ![Latest commit](https://img.shields.io/github/last-commit/Mar-Issah/chatgpt_clone/master?style=round-square)
@@ -14,5 +17,3 @@ A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit
 - run `pipenv shell`
 - run `pipenv install -r requirement.txt`
 - run `streamlit run app.py`
-
-## Summarize Conversation
