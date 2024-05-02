@@ -13,7 +13,7 @@ The app is able to summarize the conversation between AI and Human when the butt
 
 ## To run this app locally, follow the steps below:
 
-- Clone the repository
+- Clone the repository.
 - run `pipenv shell`
 - run `pipenv install -r requirement.txt`
 - run `streamlit run app.py`
