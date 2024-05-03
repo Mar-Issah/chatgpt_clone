@@ -7,7 +7,7 @@
 A ChatGPT Clone built with OpenAI (GPT-3.5-turbo-instruct), Langchain, Streamlit , Streamlit-Chat, ConversationChain, ConversationSummaryMemory.
 
 ## Summarize Conversation
-The app is able to summarize the conversation between AI and Human when the button is clicked.
+The app is able to summarize the conversation between AI and Human when the 'Summanrize the converstion' button is clicked.
 
 ![App](app.png)
 
